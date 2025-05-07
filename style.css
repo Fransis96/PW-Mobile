@@ -1,0 +1,15 @@
+.jumbotron {
+  padding-top: 5rem;
+  background-color: #e2edff;
+}
+
+.project-img {
+  max-height: 200px;
+  object-fit: contain;
+}
+
+@media (max-width: 576px) {
+  .project-img {
+    max-height: 120px;
+  }
+}
